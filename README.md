@@ -19,6 +19,8 @@ The 'Data Pre-processing.py' Python script takes the Excel file, converts it int
 - [pandas](https://pandas.pydata.org/)
 
 ## Notes
+- Pycharm is reccomended for running the scripts.
+- Ensure that both 'DOTABUFF Esports Data Scrape.py' and 'Data Pre-processing.py' are in the same folder.
 - Check 'requirements.txt' and ensure that the right versions of dependencies are installed.
 - Ensure that your web scraping complies with the website's terms of service and policies.
 - The script may need adjustments if the website's structure changes.
