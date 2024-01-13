@@ -28,7 +28,7 @@ The 'Data Pre-processing.py' Python script takes the Excel file, converts it int
 - Thank you for your understanding.
 
 ## License
-This project does not have a specific license. It means that users are not granted any rights to use, modify, or distribute the code. If you plan to share or collaborate on this project, consider choosing an open-source license to clearly communicate the permissions and restrictions.
+This project does not have a specific license. It means that users are not granted any rights to use, modify, or distribute the code.
 
 
 
