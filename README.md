@@ -1,7 +1,7 @@
 # Dota 2 Esports Matches Scraper
 
 ## Description
-The 'DOTABUFF Esports Data Scrape.py' Python script scrapes data from the Dotabuff Esports Matches webpage, extracts information about Dota 2 esports matches, and stores it in a Pandas DataFrame. The script then appends this new DataFrame to an existing one and writes the merged DataFrame to an Excel file, removing any duplicate entries based on the 'Match_ID' column. If no Excel file exists, the script writes the new DataFrame to an Excel file after removing any duplicate entries based on the 'Match_ID' column. 
+The 'DOTABUFF Esports Data Scrape.py' Python script scrapes data from the DOTABUFF Esports matches webpage, extracts information about DOTA 2 Esports matches, and stores it in a Pandas DataFrame. The script then appends this new DataFrame to an existing one and writes the merged DataFrame to an Excel file, removing any duplicate entries based on the 'Match_ID' column. If no Excel file exists, the script writes the new DataFrame to an Excel file after removing any duplicate entries based on the 'Match_ID' column. 
 
 The 'Data Pre-processing.py' Python script takes the Excel file, converts it into a DataFrame and cleans the data to produce a new DataFrame with the columns ('Match_ID', 'Series', 'Region', 'Date', 'Time', 'Won', 'Lost', 'Duration'). This DataFrame is then written to a new Excel file that contains the cleaned data.
 
@@ -19,8 +19,10 @@ The 'Data Pre-processing.py' Python script takes the Excel file, converts it int
 - [pandas](https://pandas.pydata.org/)
 
 ## Notes
+- Check 'requirements.txt' and ensure that the right versions of dependencies are installed.
 - Ensure that your web scraping complies with the website's terms of service and policies.
 - The script may need adjustments if the website's structure changes.
+  
 
 ## Contributing
 - **Contributions are not accepted for this project.**
